@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="css/fitness.css">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="service.html">Services</a></li>
+    <li><a href="team.html">Our Team</a></li>
+    <li><a href="pages.html">Pages</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+
+  <div class="first-section">
+    <nav class="">
+      <div class="nav-wrapper container">
+        <a href="#!" class="brand-logo">Sha<span class="text-color-orange">rk</span></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html"><span class="text-color-orange">Home</span></a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="pages.html">Pages</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="row tag-line">
+      <div class="col l6 m6 s2"></div>
+      <div class="col l6 m6 s10">
+        <div class="text-color-white text-1">Shape your body</div>
+        <div class="text-color-white text-2">Be <span class="text-color-orange">Strong</span></div>
+        <div class="text-color-white text-2">Training Hard</div>
+        <div class="info-btn"><a href="" class="btn-1">Know More</a></div>
+      </div>
+    </div>
+
+    <div class="row feature row-margin">
+      <div class="col l3 m2"></div>
+      <div class="col l6 m8 s12 center">
+        <div><span class="text-color-orange text-3">Why chose us?</span></div>
+        <div><span class="text-color-white text-4">Push Your Limits Forward</span></div>
+        <div class="platform-icon1">
+          <i class="fas fa-box-open text-color-orange circle"></i>
+          <i class="material-icons text-color-orange">local_drink</i>
+          <i class="fas fa-dumbbell text-color-orange"></i>
+          <i class="fas fa-heartbeat text-color-orange"></i>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!--JavaScript at end of body for optimized loading-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.sidenav').sidenav();
+      $('.carousel').carousel({
+        fullWidth: true,
+        indicators: true
+      });
+    });
+  </script>
+</body>
+
+</html>
